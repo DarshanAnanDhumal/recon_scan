@@ -23,3 +23,6 @@ python main.py <target>
 
 Advanced scan with custom ports:
 python main.py <target> -p 1-65535 -t 100 -o scan_report
+
+parameterstarget: Target IP address-p, --ports: Port range (default: 1-1000)-t, --threads: Number of threads (default: 50)-o, --output: Output filename for reports--timeout: Connection timeout in secondsLegal NoticeThis tool is for authorized penetration testing and educational purposes only. Users are responsible for complying with applicable laws and regulations.
+
